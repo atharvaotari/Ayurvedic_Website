@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayurvedic Admission Form</title>
+    <title>AddmissionForm</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -34,15 +34,17 @@ nav img {
 }
 
 nav h1 {
-    font-size: 24px;
+    font-size: 26px;
     color:white;
-    margin-left: 40px;
-    font-size: 30px;
+    margin-left: 30px;
+    
+ 
 }
 
 .nav-links {
     flex: 1;
-    text-align: right;
+    text-align: auto;
+
 }
 
 .nav-links ul li {
@@ -55,7 +57,7 @@ nav h1 {
 .nav-links ul li a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -85,8 +87,9 @@ nav h1 {
     </style>
     <header>
         <nav>
+            
             <a href="index.html"><img src="Images/logo1.png"></a>
-            <h1>SHREEYASH AYURVEDIC HOSPITAL<br> AND RESEARCH CENTER,<br> CHHATRAPATI SAMBHAJI NAGAR</h1>
+            <h1 style="font-size: 26 px;">Shreeyash Ayurvedic Hospital<br> And Research Center<br>CHHATRAPATI SAMBHAJINAGAR</h1>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                  <ul>
@@ -177,6 +180,33 @@ nav h1 {
             <button type="submit">Submit</button>
         </form>
     </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+     <!-- JS for Toggle menu -->
+
+     <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
     <script src="scripts.js"></script>
 </body>
 </html>
