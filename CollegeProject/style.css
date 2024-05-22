@@ -758,3 +758,47 @@ footer {
 .blue-btn:hover {
     transform: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------- hospital ----------------------- */
+
+
+
+.clinical-material-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 10px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+}
+.clinical-material-table {
+    display: none;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000; /* Border around the table */
+}
+.clinical-material-table th, .clinical-material-table td {
+    border: 1px solid #000; /* Border for table cells */
+    padding: 8px;
+    text-align: left;
+}
+.clinical-material-table th {
+    background-color: #4CAF50;
+    color: white;
+}
