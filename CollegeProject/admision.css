@@ -16,6 +16,9 @@ body{
     background-color: cadetblue;
 }
 
+.a{
+    align-items: left;
+}
 .container{
     position: relative;
     max-width: 430px;
