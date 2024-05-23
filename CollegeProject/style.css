@@ -775,7 +775,7 @@ footer {
 
 .clinical-material-button {
     background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
+    color: rgb(255, 255, 255); /* White text */
     padding: 10px 20px; /* Some padding */
     text-align: center; /* Centered text */
     text-decoration: none; /* No underline */
@@ -802,3 +802,44 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
+
+
+
+
+
+
+
+/*-----------------------Labour Room Equipments -----------------*/
+
+    
+
+.labour-room-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 10px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+}
+.labour-room-table {
+    display: none;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000; /* Border around the table */
+}
+.labour-room-table th, .labour-room-table td {
+    border: 1px solid #000; /* Border for table cells */
+    padding: 8px;
+    text-align: left;
+}
+.labour-room-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
