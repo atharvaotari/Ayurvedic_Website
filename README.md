@@ -1,3 +1,3 @@
 # Ayurvedic_Website
 using html css js
-hello
+made so basic website cuz our mam said  she dont know any logic about coding
